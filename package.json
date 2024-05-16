@@ -1,0 +1,13 @@
+{
+	"$scheme": "https://json.schemastore.org/package.json",
+	"private": true,
+	"name": "ext-auth",
+	"main": "index.ts",
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.3",
+		"@cloudflare/workers-types": "^4.20240502.0",
+		"@tsconfig/strictest": "^2.0.5",
+		"@types/pem": "^1.14.4",
+		"typescript": "^5.4.5"
+	}
+}

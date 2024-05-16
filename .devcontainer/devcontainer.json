@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"EditorConfig.EditorConfig",
+				"biomejs.biome"
+			]
+		}
+	},
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm",
+	"name": "External Auth",
+	"runArgs": [
+		"--name",
+		"ext-auth",
+		"-e",
+		"TERM",
+		"-e",
+		"COLORTERM",
+		"-e",
+		"LC_ALL=C.UTF-8"
+	]
+}
