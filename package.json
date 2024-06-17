@@ -4,7 +4,7 @@
 	"name": "ext-auth",
 	"main": "index.ts",
 	"devDependencies": {
-		"@biomejs/biome": "^1.7.3",
+		"@biomejs/biome": "^1.8.1",
 		"@cloudflare/workers-types": "^4.20240502.0",
 		"@tsconfig/strictest": "^2.0.5",
 		"@types/pem": "^1.14.4",
